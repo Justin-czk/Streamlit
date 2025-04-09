@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+scikit-learn
+tensorflow
+xgboost
+catboost
+bambi
+arviz
+seaborn
+matplotlib
+plotly
+plotly-express

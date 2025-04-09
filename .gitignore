@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+pip-wheel-metadata/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/config.toml
+**/.streamlit/cache/
+**/.streamlit/*.json
+
+# Misc
+catboost_info
+
+# Logs
+*.log
+
+# VSCode & IDEs
+.vscode/
+.idea/
+*.code-workspace
+
