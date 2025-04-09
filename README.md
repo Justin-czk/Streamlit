@@ -11,23 +11,17 @@ This Streamlit app lets users explore and model time-series cryptocurrency data 
 
 1. Clone this repo:
 ```bash
-git clone https://github.com/your-username/crypto-modeling-app.git
-cd crypto-modeling-app
+git clone https://github.com/Justin-czk/Streamlit.git
+cd Streamlit
 
-2. Install dependencies:
+2. Download dataset here:
+https://drive.google.com/file/d/1sqo2Pt7LRK4cUU9sEnJtGFx9YdGNKWI4/view?usp=sharing
+
+3. Install dependencies:
 `pip install -r requirements.txt`
 
-3. Run the app:
+4. Run the app:
 `streamlit run Home.py`
-
-4. Deploy the app on Streamlit Cloud.
-- Push to GitHub.
-- Create a Streamlit account.
-- Create a new app.
-- Connect your GitHub repo.
-- Set app.py as the entry point.
-- Upload dataset/crypto_data.csv
-
 
 ## Directory Structure
 crypto-modeling-app/
@@ -62,6 +56,6 @@ crypto-modeling-app/
 │   ├── models.py
 │   └── metrics.py
 │
-├── app.py
+├── Home.py
 ├── requirements.txt
 └── README.md
